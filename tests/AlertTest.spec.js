@@ -9,7 +9,7 @@ test('simple alert with ok button only', async ({ page }) => {
     await page.locator("#alertButton").click();
 });
 
-test.only('handling popup',async ({page})=>{
+test('handling popup',async ({page})=>{
     await page.goto("https://demoqa.com/browser-windows");
     page.once('popup',async (popup)=>{
         console.log('popup message:', popup.url());
