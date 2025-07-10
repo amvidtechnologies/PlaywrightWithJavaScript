@@ -7,7 +7,7 @@ test("Home Page",async ({page})=>{
     await expect(page.locator("//h5[text()='About us']")).toBeVisible();
     await page.locator("(//h5[text()='About us']//following::span)[1]").click();
     await homePage.clickContactButton();
-    await expect.soft(page.locator("//h5[text()='New messages']")).toBeVisible();
+    await expect.soft(page.locator("//h5[text()='New message']")).toBeVisible();
     await page.locator("(//h5[text()='New message']//following::span)[1]").click();
     await homePage.clickHomeButton();
 });
