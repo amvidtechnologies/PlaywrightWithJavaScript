@@ -1,0 +1,65 @@
+{
+    "HomePage": {
+        "ElementsCard": "//h5[text()='Elements']//ancestor::div[@class='card mt-4 top-card']",
+        "FormsCard": "//h5[text()='Forms']//ancestor::div[@class='card mt-4 top-card']",
+        "AlertsFrameWindowsCard": "//h5[text()='Alerts, Frame & Windows']//ancestor::div[@class='card mt-4 top-card']",
+        "WidgetsCard": "//h5[text()='Widgets']//ancestor::div[@class='card mt-4 top-card']",
+        "InteractionsCard": "//h5[text()='Interactions']//ancestor::div[@class='card mt-4 top-card']",
+        "BookStoreApplicationCard": "//h5[text()='Book Store Application']//ancestor::div[@class='card mt-4 top-card']"
+    },
+    "Category": {
+        "Main": {
+            "Elements": "//div[text()='Elements']//ancestor::span[@class='group-header']",
+            "Forms": "//div[text()='Forms']//ancestor::span[@class='group-header']",
+            "AlertsFrameWindows": "//div[text()='Alerts, Frame & Windows']//ancestor::span[@class='group-header']",
+            "Widgets": "//div[text()='Widgets']//ancestor::span[@class='group-header']",
+            "Interactions": "//div[text()='Interactions']//ancestor::span[@class='group-header']",
+            "BookStoreApplication": "//div[text()='Book Store Application']//ancestor::span[@class='group-header']"
+        },
+        "Elements": {
+            "TextBox": "//span[text()='Text Box']//parent::li",
+            "CheckBox": "//span[text()='Check Box']//parent::li",
+            "RadioButton": "//span[text()='Radio Button']//parent::li",
+            "WebTables": "//span[text()='Web Tables']//parent::li",
+            "Buttons": "//span[text()='Buttons']//parent::li",
+            "Links": "//span[text()='Links']//parent::li",
+            "BrokenLinksImages": "//span[text()='Broken Links - Images']//parent::li",
+            "UploadAndDownload": "//span[text()='Upload and Download']//parent::li",
+            "DynamicProperties": "//span[text()='Dynamic Properties']//parent::li"
+        },
+        "Forms": {
+            "TextBox": "//span[text()='Practice Form']//parent::li"
+        },
+        "AlertsFrameWindows": {
+            "BrowserWindows": "//span[text()='Browser Windows']//parent::li",
+            "Alerts": "//span[text()='Alerts']//parent::li",
+            "Frames": "//span[text()='Frames']//parent::li",
+            "NestedFrames": "//span[text()='Nested Frames']//parent::li",
+            "ModalDialogs": "//span[text()='Modal Dialogs']//parent::li"
+        },
+        "WidgetsCard": {
+            "Accordian": "//span[text()='Accordian']//parent::li",
+            "AutoComplete": "//span[text()='Auto Complete']//parent::li",
+            "DatePicker": "//span[text()='Date Picker']//parent::li",
+            "Slider": "//span[text()='Slider']//parent::li",
+            "ProgressBar": "//span[text()='Progress Bar']//parent::li",
+            "Tabs": "//span[text()='Tabs']//parent::li",
+            "ToolTips": "//span[text()='Tool Tips']//parent::li",
+            "Menu": "//span[text()='Menu']//parent::li",
+            "SelectMenu": "//span[text()='Select Menu']//parent::li"
+        },
+        "Interactions": {
+            "Sortable": "//span[text()='Sortable']//parent::li",
+            "Selectable": "//span[text()='Selectable']//parent::li",
+            "Resizable": "//span[text()='Resizable']//parent::li",
+            "Droppable": "//span[text()='Droppable']//parent::li",
+            "Dragabble": "//span[text()='Dragabble']//parent::li"
+        },
+        "BookStoreApplication": {
+            "Login": "//span[text()='Login']//parent::li",
+            "BookStore": "//span[text()='Book Store']//parent::li",
+            "Profile": "//span[text()='Profile']//parent::li",
+            "BookStoreAPI": "//span[text()='Book Store API']//parent::li"
+        }
+    }
+}
